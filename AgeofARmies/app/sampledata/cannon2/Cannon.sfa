@@ -1,0 +1,94 @@
+{
+  materials: [
+    {
+      name: 'Barrel',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.073131000000000002,
+            0.071094000000000004,
+            0.075201000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Wheels',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.059381999999999997,
+            0.025354999999999999,
+            0.0094160000000000008,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Wood',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.120238,
+            0.083141999999999994,
+            0.049253999999999999,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/cannon2/Cannon.obj',
+    name: 'Cannon',
+    recenter: 'root',
+    scale: 0.57994000000000001,
+  },
+  version: '0.52:1',
+}

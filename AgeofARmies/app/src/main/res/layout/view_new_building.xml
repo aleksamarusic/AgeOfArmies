@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#AAAAAA"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_farm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_farm"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button_cannon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_cannon"/>
+
+</LinearLayout>

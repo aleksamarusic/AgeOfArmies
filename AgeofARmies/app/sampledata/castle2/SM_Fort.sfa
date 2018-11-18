@@ -1,0 +1,95 @@
+{
+  materials: [
+    {
+      name: 'SM_FortSG',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.17000000000000001,
+            0.17000000000000001,
+            0.17000000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'SM_FortSG1',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.31,
+            0.31,
+            0.31,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'SM_FortSG2',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.17999999999999999,
+            0.13,
+            0.11,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/castle2/SM_Fort.obj',
+    name: 'SM_Fort',
+    recenter: 'root',
+    scale: 0.029326999999999999,
+  },
+  version: '0.52:1',
+}

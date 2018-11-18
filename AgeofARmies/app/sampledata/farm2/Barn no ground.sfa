@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'lambert6SG',
+      parameters: [
+        {
+          baseColor: 'Barn tex',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/farm2/Barn no ground.obj',
+    name: 'Barn no ground',
+    recenter: 'root',
+    scale: 0.00017899999999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/farm2\\Barn tex.png',
+      name: 'Barn tex',
+      pipeline_name: 'Barn tex.png',
+    },
+  ],
+  version: '0.52:1',
+}
